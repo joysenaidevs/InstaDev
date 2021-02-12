@@ -1,10 +1,8 @@
 
-
 namespace Models
 {
     public class Usuario : InstadevBase , IUsuario
     {
-        
         public int IdUsuario { get; set; }  
         public string Nome { get; set; }    
         public string Foto { get; set; }
